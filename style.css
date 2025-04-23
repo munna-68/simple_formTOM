@@ -1,3 +1,100 @@
-h1 {
-  color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Simple CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Actuall CSS */
+
+body {
+  display: flex;
+}
+
+h3 {
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 1rem;
+}
+
+h2 {
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 1rem 0;
+}
+
+label {
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+form {
+  padding: 1rem 0;
+}
+
+button {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  background: #D3984E;
+  display: inline-flex;
+  padding: 0.5rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: none;
+}
+
+.left {
+  width: 50vw;
+  padding: 1rem;
+
+}
+
+.right {
+  width: 50vw;
+  padding: 1rem;
+  background: rgba(56, 82, 79, 0.17);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.right-top {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 1rem;;
+}
+
+.right-form {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-middle {
+  flex: 1;
+  background-color: #FFF;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+}
+
+.right-bottom {
+  flex: 1;
 }
